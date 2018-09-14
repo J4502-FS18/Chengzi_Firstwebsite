@@ -1,81 +1,81 @@
-html{
+html {
     font-size: 100%;
     text-align: center;
 }
-p{
+
+p {
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
     font: size 1rem;
     line-height: 1.5rem;
-    color:#57727F;
+    color: #57727F;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
     font-weight: 500;
-    
-  
 }
-h1{
-    padding:1.5rem;
+
+h1 {
+    padding: 1.5rem;
     font-weight: bolder;
 }
-body{
+
+body {
     background-color: rgb(203, 227, 240);
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
 
-#joke{
-
+#joke {
     font-family: 'Indie Flower', cursive;
 }
 
-#nav{
+#nav {
     padding-inline-end: 40px;
 }
-#nav li{
+
+#nav li {
     list-style-type: none;
     border: 1px solid #00547F;
-    background-color:#8CB6CC;
-   
-
+    background-color: #8CB6CC;
 }
 
-
-#nav a{
-    display:block;
+#nav a {
+    display: block;
     color: white;
     padding: 0;
     margin: 5px;
     text-decoration: none;
-   
-   
 }
-#nav a:hover, a:active{
+
+#nav a:hover, a:active {
     background-color: #00547F;
 }
 
-#link a{
+#link a {
     color: grey;
     text-decoration: none;
-    
 }
-#link a:hover, a:active{
+
+#link a:hover, a:active {
     font-size: 110%;
-    font-weight: bold; 
+    font-weight: bold;
     color: #00547F;
 }
 
-.img{
+.img {
     border: none;
     margin-bottom: 0;
 }
-.caption{
+
+.caption {
     text-align: center;
-    font-size:0.5rem;
+    font-size: 0.5rem;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
     font-style: italic;
     margin-top: 0;
 }
-#footer{
+
+#footer {
     color: black;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
