@@ -21,7 +21,7 @@ h1 {
 }
 
 body {
-    background-color: rgb(203, 227, 240);
+    background-color:whitesmoke;
     font-size: 1.2rem;
 }
 
@@ -32,24 +32,44 @@ body {
 #nav {
     padding: 0;
     align-self: center;
+    
 }
 
 #nav li {
     list-style-type: none;
-    border: 1px solid #00547F;
-    background-color: #8CB6CC;
+  
+    background-color: rgb(243, 107, 130);
 }
 
 #nav a {
     display: block;
     color: white;
-    padding: 0;
-    margin: 5px;
     text-decoration: none;
 }
 
 #nav a:hover, a:active {
-    background-color: #00547F;
+    background-color:pink;
+} 
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 10px;
+	background: rgb(247, 213, 213);
+  	border-radius: 5px;
+	margin: 45px auto;
+  	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+li {
+
+    width:auto;
+    height: 50px;
+	padding: 15px;
+	margin: 5px;
+
+	border-radius: 3px;
 }
 
 #link a {

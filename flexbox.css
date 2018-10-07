@@ -1,0 +1,21 @@
+ul{
+	display: flex;
+
+	flex-direction:column;
+	
+}
+li{
+	flex: 1 1 auto;
+}
+@media (min-width: 600px) {
+	ul {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 800px) {
+	li {
+		margin-right: auto;
+	}
+}
