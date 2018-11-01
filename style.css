@@ -8,6 +8,7 @@ p {
     font: size 1rem;
     line-height: 1.5rem;
     color: #57727F;
+   text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,10 +28,9 @@ body {
 
 
 .burger li{
-
     list-style-type: none;
-    width:200px;
     align-items: center;
+    width:150%;
 }
 
 .burger li a:link{ 
@@ -43,7 +43,7 @@ body {
 
 #nav li {
     list-style-type: none;
-    width:200px;
+
 }
 
 #nav a {
@@ -154,7 +154,7 @@ ul {
 }
 
 li {
-	flex: 1 1 auto;
+    flex: 1 1 auto;
 }
 
 @media screen and (min-width: 600px) {
@@ -165,25 +165,27 @@ li {
 }
 
 @media screen and (min-width: 800px) {
-	li {
-		margin-right: auto;
-	}
+	
 	article {
 		display: grid;
-		grid-template-columns: 200px 1fr 200px;
+		grid-template-columns: 1fr 3fr 1fr;
 		grid-gap: 20px;
-		grid-template-areas: "a b b" ". c e" "d d d";
+		grid-template-areas: ". g .""a b ." ". c e" ". d .";
 	}
 }
 
-.img {
-	grid-area: a;
+img {
+    grid-area: a;
+    width:100%;
 }
 
 .caption {
 	grid-column: a;
 }
-
+.contact{
+	grid-area: b;
+	background-color: rgb(247, 213, 213);
+}
 .project {
 	grid-area: d;
 }
@@ -191,7 +193,7 @@ li {
 .section1 {
 	grid-area: c;
 }
-.contact{
-	grid-area: b;
-	background-color: rgb(247, 213, 213);
+
+.burger{
+    grid-area: g;
 }
