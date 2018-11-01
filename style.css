@@ -25,10 +25,16 @@ body {
     font-size: 1.2rem;
 }
 
-#joke {
-    font-family: 'Indie Flower', cursive;
+
+.burger li{
+
+    list-style-type: none;
+    width:200px;
+    align-items: center;
 }
 
+.burger li a:link{ 
+    text-decoration: none;}
 #nav {
     padding: 0;
     align-self: center;

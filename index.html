@@ -11,64 +11,87 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="./flexbox.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower%7CMerriweather%7CMerriweather+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="menu.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <h1>Chengzi Cao's First Website</h1>
-    <article>
-    <h2>Contact Me</h2>
-    <p> email address: cc7db@mail.missouri.edu</p>
-    <h2>Joke</h2>
-    <p id="joke">
-        Q: What do you call sad coffee? A: Despresso.
+    <header>
+        <h1>CHENGZI CAO</h1>
+        <nav class=burger>
+            <a class="menu-trigger" href="#">&#9776;</a>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <h1>Chengzi Cao's First Website</h1>
 
-    </p>
+        <article>
+            <section class=contact>
+                <h2>Contact Me</h2>
+            <p>email address: cc7db@mail.missouri.edu</p>
+            </section>
 
+            <a href="mailto:cc7db@mail.missouri.edu">
+                <img class="img" src="./portrait.jpeg" alt="the portrait of Chengzi Cao " width=400 title="Portrait of Chengzi">
+            </a>
+            <p class="caption">By K</p>
+        </article>
 
-    <a href="mailto:cc7db@mail.missouri.edu">
-        <img class="img" src="./portrait.jpeg" alt="the portrait of Chengzi Cao " width=400 title="Portrait of Chengzi">
-    </a>
-    <p class="caption">By K</p>
+        <h2>Journalism Project</h2>
+        <article>
+            <ul id="nav" class="flex-container">
+                <li>
+                    <a href="https://chengzicao2150ch.tumblr.com/post/173069789098/the-first-fridays-is-a-free-gallery-crawl">First Fridays</a>
+                </li>
+
+                <li>
+                    <a href="https://chengzicao2150ch.tumblr.com/post/172836190118/matt-drury-22-blake-bremer-23-james-murphy">Drone Project</a>
+                </li>
+                <li>
+                    <a href="https://chengzicao2150ch.tumblr.com/post/172743959318/resubmission-real-people">Real People</a>
+                </li>
+            </ul>
+        
+        <h2>Other Links</h2>
+        <div id="link">
+            <a href="oldindex.html">A link to a page in my site </a>
+        </div>
+
+        <section class=section1>
+            <p>
+                PITTSBURGH — As the first funerals for victims of the Pittsburgh synagogue attack began on Tuesday morning, President Trump
+                prepared to visit the grief-stricken city to pay respects. Even before he landed though, some local officials
+                implored him to stay away while the community began burying its dead. In the aftermath of one of the deadliest
+                anti-Semitic attacks in American history, the president will make a brief trip Tuesday afternoon with his
+                wife, Melania Trump, as well as his daughter Ivanka Trump, who is Jewish, and her husband Jared Kushner,
+                the grandson of Holocaust survivors. The top four Republican and Democratic congressional leaders who were
+                invited to join him all declined, according to officials familiar with the planning who spoke on condition
+                of anonymity because they were not authorized to comment. Mr. Trump’s stop is an opportunity for him to play
+                the traditional role of consoler in chief that presidents often step into after a national tragedy. But in
+                the wake of the shooting and a recent spate of mailed explosive devices, Mr. Trump has been reluctant to
+                blunt his bitter political attacks, arguing that his supporters crave his incendiary rhetoric. Campbell Robertson
+                reported from Pittsburgh and Julie Hirschfeld Davis from Washington. Ken Belson contributed reporting from
+                New York.
+            </p>
+        </section>
     </article>
 
-    <h2>Journalism Project</h2>
-    <article>
-    <ul id="nav" class="flex-container">
-        <li>
-            <a href="https://chengzicao2150ch.tumblr.com/post/173069789098/the-first-fridays-is-a-free-gallery-crawl">First Fridays</a>
-        </li>
-
-        <li>
-            <a href="https://chengzicao2150ch.tumblr.com/post/172836190118/matt-drury-22-blake-bremer-23-james-murphy">Drone Project</a>
-        </li>
-        <li>
-            <a href="https://chengzicao2150ch.tumblr.com/post/172743959318/resubmission-real-people">Real People</a>
-        </li>
-    </ul>
-    </article>
-    <h2>Other Links</h2>
-    <div id="link">
-        <a href="oldindex.html">A link to a page in my site </a>
-        <br/>
-        <a href="https://www.nytimes.com/">New York Times</a>
-    </div>
-    <section id=section1>
-    <p>
-        PITTSBURGH — As the first funerals for victims of the Pittsburgh synagogue attack began on Tuesday morning, President Trump prepared to visit the grief-stricken city to pay respects. Even before he landed though, some local officials implored him to stay away while the community began burying its dead.
-
-In the aftermath of one of the deadliest anti-Semitic attacks in American history, the president will make a brief trip Tuesday afternoon with his wife, Melania Trump, as well as his daughter Ivanka Trump, who is Jewish, and her husband Jared Kushner, the grandson of Holocaust survivors.
-
-The top four Republican and Democratic congressional leaders who were invited to join him all declined, according to officials familiar with the planning who spoke on condition of anonymity because they were not authorized to comment.
-
-Mr. Trump’s stop is an opportunity for him to play the traditional role of consoler in chief that presidents often step into after a national tragedy. But in the wake of the shooting and a recent spate of mailed explosive devices, Mr. Trump has been reluctant to blunt his bitter political attacks, arguing that his supporters crave his incendiary rhetoric.
-
-Campbell Robertson reported from Pittsburgh and Julie Hirschfeld Davis from Washington. Ken Belson contributed reporting from New York.
-    </p>
-    </section>
 
 
- 
-    <p id="footer">Content copyright © 2018 Chengzi Cao.</p>
+        <p id="footer">Content copyright © 2018 Chengzi Cao.</p>
 </body>
 
 </html>
