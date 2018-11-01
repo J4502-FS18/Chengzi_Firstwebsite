@@ -43,8 +43,7 @@ body {
 
 #nav li {
     list-style-type: none;
-  
-    background-color: rgb(243, 107, 130);
+    width:200px;
 }
 
 #nav a {
@@ -78,16 +77,6 @@ li {
 	border-radius: 3px;
 }
 
-#link a {
-    color: grey;
-    text-decoration: none;
-}
-
-#link a:hover, a:active {
-    font-size: 110%;
-    font-weight: bold;
-    color: #00547F;
-}
 
 .img {
     border: none;

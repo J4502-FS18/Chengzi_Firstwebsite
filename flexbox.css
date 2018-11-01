@@ -16,7 +16,7 @@ header {
 	width: 2em;
 }
 .burger li a{
-	color:#f8ecc2;
+	color:whitesmoke;
 }
 header h1 {
 	order: 2;
@@ -69,7 +69,7 @@ li {
 		display: grid;
 		grid-template-columns: 200px 1fr 200px;
 		grid-gap: 20px;
-		grid-template-areas: "a b b" ". c e" ". d d";
+		grid-template-areas: "a b b" ". c e" "d d d";
 	}
 }
 
@@ -81,7 +81,7 @@ li {
 	grid-column: a;
 }
 
-#nav {
+.project {
 	grid-area: d;
 }
 
@@ -90,4 +90,5 @@ li {
 }
 .contact{
 	grid-area: b;
+	background-color: rgb(247, 213, 213);
 }
